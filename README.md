@@ -32,6 +32,13 @@ For Debian/Ubuntu, install the following:
 sudo apt-get install autoconf automake autotools-dev g++ pkg-config python-dev python3-dev libtool make
 ```
 
+For CentOS/RedHat, install the following:
+
+```bash
+# Install build dependencies on CentOS/RedHat.
+sudo yum install autoconf automake gcc-c++ python26-devel python27-devel python36-devel libtool
+```
+
 Once you have the build dependencies installed:
 
 ```bash
